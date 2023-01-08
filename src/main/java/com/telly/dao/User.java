@@ -1,6 +1,7 @@
 package com.telly.dao;
 
 import java.io.Serializable;
+import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,6 +10,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotBlank;
+import java.io.Serializable;
 
 @Entity
 @Table(name="users")
